@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/app.css" media="all">
+  <title>Simon Says</title>
+</head>
+<body>
+  <header role="banner">
+    <h1>
+      <span id="simon">Simon</span><span id="says">Says</span>
+    </h1>
+  </header>
+  <main class="main">
+  <section id="start-button" class="button">
+    <button id="start-game">start game!</button>
+  </section>
+  <section id="gameboard" class="board">
+    <div id="game-board" class="game-board">
+      <div id="button-0" data-index="0" class="game-button green">
+      </div>
+      <div id="button-1" data-index="1" class="game-button yellow">
+      </div>
+      <div id="button-2" data-index="2" class="game-button red">
+      </div>
+       <div id="simon-face" class="alert-button">
+        <img src="https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/z8seOWWxMJL38ie/simongame.png" width="150px" height="200px">
+      </div>
+      <div id="button-3" data-index="3" class="game-button blue">
+      </div>
+    </div>
+  </section>
+  <section id="level" class="level">
+    <h1 class="level-header">Level</h1>
+    <div id="level-counter" class="level-counter">x</div>
+  </section>
+  </main>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

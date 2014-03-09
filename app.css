@@ -1,0 +1,189 @@
+/*
+*  hsla(  0,  0.0%, 100.0%, 1 )  white
+*  hsla(  0,  0.0%,  13.3%, 1 )  dark gray
+*  hsla(  0,  0.0%,  60.0%, 1 )  medium gray
+*  hsla(  0,  0.0%,  80.0%, 1 )  light gray
+*  hsla(  2,  64.7%,  50.0%, 1 )  red
+*  hsla(  40,  64.7%,  50.0%, 1 )  yellow
+*  hsla( 120,  39.6%,  46.0%, 1 )  green
+*  hsla( 208,  55.9%,  44.5%, 1 )  blue
+*/
+
+html {
+  background-color: hsla( 0, 0.0%, 100.0%, 1 )
+}
+,
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  cursor: default;
+  margin: 0;
+  padding: 0;
+  color: hsla( 0, 0.0%, 13.3%, 1 );
+  background-color: hsla( 0, 0.0%, 100.0%, 1 );
+}
+
+/*.main {
+  height: 1000px;
+  width: 1000px;
+}
+*/
+h1 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 2.4em;
+  font-weight: normal;
+  line-height: 3em;
+  margin: 5px 0 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+#simon {
+  margin-right: 5px;
+}
+
+#says {
+  margin-left: 5px;
+}
+
+.board {
+  margin-top: 30px;
+  text-align: center;
+  background-color: hsla(  0,  0.0%,  80.0%, 1 )
+
+}
+
+#start-button {
+  text-align: center;
+
+}
+
+#start-game {
+  font-size:20px;
+  font-family:Arial;
+  font-weight:normal;
+  -moz-border-radius:14px;
+  -webkit-border-radius:14px;
+  border-radius:14px;
+  border:0px solid #a2e82a;
+  padding:10px 22px;
+  text-decoration:none;
+  background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+  background:-ms-linear-gradient( top, #9dce2c 5%, #8cb82b 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #9dce2c), color-stop(100%, #8cb82b) );
+  background-color:#9dce2c;
+  color:#ffffff;
+  display:inline-block;
+  text-shadow:1px 1px 0px #689324;
+  -webkit-box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+  -moz-box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+  box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+}
+
+.game-board {
+  height: 560px;
+  width: 500px;
+  vertical-align: bottom;
+}
+.game-button {
+  /*border-radius: 4px;*/
+/*  border: 1px solid hsla(  0,  0.0%,  13.3%, 1 );*/
+  /*background: hsla(  0,  0.0%,  13.3%, 1 );*/
+}
+
+#button-0 {
+  position: relative;
+  top: 40px;
+  left: 370px;
+ /* height: 100px;
+  width: 200px;*/
+
+}
+
+#button-1 {
+  position: relative;
+  top: -20px;
+  left: 290px;
+/*  height: 10px;
+  width: 200px;
+*/
+}
+
+#button-2 {
+  position: relative;
+  top: -333px;
+  left: 630px;
+  /*height: 10px;
+  width: 200px;*/
+
+}
+
+#button-3 {
+  position: relative;
+  top: -603px;
+  left: 377px;
+/*  height: 10px;
+  width: 200px;*/
+}
+
+#simon-face {
+  position: relative;
+  top: -604px;
+  left: 280px;
+  height: 200px;
+  margin-right: 140px;
+  margin-left: 150px;
+
+}
+
+#level-counter {
+  text-align: center;
+  top: -100px;
+  font-size: 1.5em;
+}
+
+.level-header {
+  text-align: rightfont-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 2.4em;
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+}
+
+div.green {
+  content:url(https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/tqdAmitchePr1Z4/greenbutton.png);
+}
+
+div.greenFlash {
+  content:url(https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/uIiFwUHoIft1jgQ/greenbuttonlight.png);
+}
+
+div.yellow {
+  content:url(https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/aT9kMOUvnynl3bP/yellowbutton.png);
+}
+
+div.yellowFlash {
+  content:url(https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/BRNVcRYXe88YpBv/yellowbuttonlight.png);
+}
+
+div.red {
+  content:url(https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/TAq8NSgBPkCYKF9/redbutton.png);
+}
+
+div.redFlash {
+  content:url(https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/jttfrxd4f4LcgmP/redbuttonlight.png);
+}
+
+div.blue {
+  content:url(https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/Nv1Dgf55tkVPvq8/bluebutton.png);
+}
+
+div.blueFlash {
+  content:url(https://s3.amazonaws.com/uploads.hipchat.com/39979/667809/Izj8lcsQbdsZQHI/bluebuttonlight.png);
+}
